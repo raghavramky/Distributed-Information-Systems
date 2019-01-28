@@ -26,17 +26,18 @@ namespace Assignment1_S19
             long n3 = 1111;
             long r3 = binaryToDecimal(n3);
             Console.WriteLine("Decimal conversion of the binary number " + n3 + " is: " + r3);
+            Console.Write("\n");
 
             int n4 = 5;
             
-            Console.Write("A Triangle for " + n4 + " lines is displayed below :" +"\n" + "\n");
-            
+            Console.Write("A Triangle for " + n4 + " lines is displayed below :" +"\n");
+            Console.Write("\n");
+
             printTriangle(n4);
             
             int[] arr = new int[] { 1, 2, 3, 2, 2, 1, 3, 2 };
             computeFrequency(arr);
 
-            Console.Write("\n");
             Console.WriteLine(" End of Output, Press Enter to Exit :)");
             Console.ReadKey();
 
