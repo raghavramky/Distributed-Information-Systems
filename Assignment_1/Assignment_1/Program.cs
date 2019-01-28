@@ -16,20 +16,17 @@ namespace Assignment1_S19
             Console.WriteLine("The sum of the series is: " + r1);
             Console.Write("\n");
 
-            
             long n2 = 15;
             long r2 = decimalToBinary(n2);
             Console.WriteLine("Binary conversion of the decimal number " + n2 + " is: " + r2);
             Console.Write("\n");
-
             
             long n3 = 1111;
             long r3 = binaryToDecimal(n3);
             Console.WriteLine("Decimal conversion of the binary number " + n3 + " is: " + r3);
             Console.Write("\n");
 
-            int n4 = 5;
-            
+            int n4 = 5;            
             Console.Write("A Triangle for " + n4 + " lines is displayed below :" +"\n");
             Console.Write("\n");
 
@@ -65,7 +62,6 @@ namespace Assignment1_S19
                         {
                             isPrime = false;
                             break;
-
                         }
                     }
                     if (isPrime)
@@ -243,8 +239,7 @@ namespace Assignment1_S19
                 //Loop for every element in the array
                 for (i = 0; i < length; i++)
                 {
-                    counter = 1; //Fush counter for every element 
-                        
+                    counter = 1; //Fush counter for every element  
                     for (j = i + 1; j < length; j++)
                     {
                         
@@ -268,8 +263,7 @@ namespace Assignment1_S19
                     if(frequency[k] != 1 )
                     {
                         Console.Write(element[k] + "\t" + frequency[k] + "\n");
-                    }
-                    
+                    }  
                 }
                 Console.Write("\n");
             }
